@@ -1,0 +1,153 @@
+.terminal{
+    width: 60%;
+    text-align: center;
+    height: 600px;
+    margin: auto;
+    background: black;
+}
+
+.terminal,
+input{
+    font-size: 16px;
+}
+
+.terminal-frame{
+    width: 100%;
+    background: #848484;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.expand-btn{
+    background: #66e418;
+}
+
+.close-btn{
+    background: red;
+}
+
+.expand-btn,
+.close-btn{
+    width: 15px;
+    height: 15px;
+    border-radius: 200px;
+    float: right;
+    margin-right: 10px;
+}
+
+.terminal-body{
+    text-align: left;
+    color: white;
+    padding-left: 45px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    height: 95%;
+}
+
+
+.terminal-body::-webkit-scrollbar {
+    display: none;
+  }
+
+span{
+    display: block;
+}
+
+.help{
+    color: red;
+}
+
+.message-wrapper.list{
+    justify-content: space-between;
+    display: flex;
+    color: yellow;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    width: 95%;
+    position: relative;
+}
+
+.list{
+    display: table;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100px;
+}
+
+input{
+    background-color: black;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.last{
+    display: inline-block;
+}
+
+input
+{
+    color: #00ff00;
+}
+
+.info{
+    color: yellow;
+}
+
+.info-help{
+    color: orange;
+}
+
+.info-help:not(:first-child),
+.message-wrapper.info{
+    padding-left: 40px;
+}
+
+.info-help:first-child{
+    color: yellow;
+}
+
+.link{
+    color: cyan;
+}
+
+.message-wrapper,
+.user-input{
+    padding-top: 5px;
+}
+
+.message-wrapper > .last:nth-child(even){
+    color: #00ff00;
+    padding-left: 5px;
+} 
+
+.user-input{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .terminal{
+        width: 95%;
+        height: 90vh;
+        
+    }
+
+    .terminal,
+    input{
+        font-size: 12px;
+    }
+
+    .terminal-body{
+        padding-left: 5px;
+    }
+    .info-help:not(:first-child),
+    .info-help:first-child{
+        padding-left: 0px;
+    }
+    
+}
