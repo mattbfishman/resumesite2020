@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/new-resume-site/static/css/main.a1cf8571.chunk.css",
+    "main.js": "/new-resume-site/static/js/main.a90a3efa.chunk.js",
+    "main.js.map": "/new-resume-site/static/js/main.a90a3efa.chunk.js.map",
+    "runtime-main.js": "/new-resume-site/static/js/runtime-main.433e96cf.js",
+    "runtime-main.js.map": "/new-resume-site/static/js/runtime-main.433e96cf.js.map",
+    "static/js/2.38f511f9.chunk.js": "/new-resume-site/static/js/2.38f511f9.chunk.js",
+    "static/js/2.38f511f9.chunk.js.map": "/new-resume-site/static/js/2.38f511f9.chunk.js.map",
+    "index.html": "/new-resume-site/index.html",
+    "precache-manifest.9fcc27602df394ef4214499b079e5d2a.js": "/new-resume-site/precache-manifest.9fcc27602df394ef4214499b079e5d2a.js",
+    "service-worker.js": "/new-resume-site/service-worker.js",
+    "static/css/main.a1cf8571.chunk.css.map": "/new-resume-site/static/css/main.a1cf8571.chunk.css.map",
+    "static/js/2.38f511f9.chunk.js.LICENSE": "/new-resume-site/static/js/2.38f511f9.chunk.js.LICENSE",
+    "static/media/Matthew_Fishman_resume.pdf": "/new-resume-site/static/media/Matthew_Fishman_resume.88f47990.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.433e96cf.js",
+    "static/js/2.38f511f9.chunk.js",
+    "static/css/main.a1cf8571.chunk.css",
+    "static/js/main.a90a3efa.chunk.js"
+  ]
+}
